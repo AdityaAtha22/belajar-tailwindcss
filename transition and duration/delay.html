@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>transition delay - tailwind</title>
+	</head>
+	<body>
+		<!-- delay adalah waktu tunggu sebelum transisi dimulai -->
+		<div class="group border-2 w-[250px] mx-auto">
+			<!-- delay 1 detik -->
+			<div
+				class="w-28 h-28 bg-red-500 my-[50px] mx-auto group-hover:rotate-90 transition duration-1000 delay-1000"
+			>
+				kotak 1
+			</div>
+			<!-- delay 0.5 detik -->
+			<div
+				class="w-28 h-28 bg-blue-500 my-[50px] mx-auto group-hover:rotate-90 transition duration-1000 delay-500"
+			>
+				kotak 2
+			</div>
+			<!-- delay 0.1 detik -->
+			<div
+				class="w-28 h-28 bg-green-500 my-[50px] mx-auto group-hover:rotate-90 transition duration-1000 delay-100"
+			>
+				kotak 3
+			</div>
+		</div>
+	</body>
+</html>

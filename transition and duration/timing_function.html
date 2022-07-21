@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>transition timing function - tailwind</title>
+	</head>
+	<body>
+		<div class="group w-[200px] border-2">
+			<!-- linear : kecepatan datar -->
+			<div
+				class="w-16 h-16 bg-red-500 my-10 ml-5 group-hover:translate-x-[400px] transition ease-linear duration-1000"
+			>
+				kotak 1
+			</div>
+			<!-- ease-in : kecepatan awal lambat akhir cepat -->
+			<div
+				class="w-16 h-16 bg-blue-500 my-10 ml-5 group-hover:translate-x-[400px] transition ease-in duration-1000"
+			>
+				kotak 2
+			</div>
+			<!-- ease-out : kebalikan ease-in -->
+			<div
+				class="w-16 h-16 bg-orange-500 my-10 ml-5 group-hover:translate-x-[400px] transition ease-out duration-1000"
+			>
+				kotak 3
+			</div>
+			<!-- ease-in-out : kecepatan awal lambat pertengahan cepat akhir lambat lagi -->
+			<div
+				class="w-16 h-16 bg-green-500 my-10 ml-5 group-hover:translate-x-[400px] transition ease-in-out duration-1000"
+			>
+				kotak 4
+			</div>
+		</div>
+	</body>
+</html>

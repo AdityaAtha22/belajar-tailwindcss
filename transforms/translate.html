@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>translate - tailwind</title>
+	</head>
+	<body>
+		<div class="group p-5 m-5 border-2 border-black">
+			<!-- bergerak ke kanan 160px -->
+			<div
+				class="mx-2 my-10 bg-orange-500 w-20 h-20 transition-all duration-500 group-hover:translate-x-40"
+			></div>
+			<!--p-5  bergerak ke kiri 80px -->
+			<div
+				class="mx-2 my-10 bg-green-500 w-20 h-20 transition-all duration-500 group-hover:-translate-x-20"
+			></div>
+			<!--p-5  bergerak ke atas 200px -->
+			<div
+				class="mx-2 my-10 bg-indigo-500 w-20 h-20 transition-all duration-500 group-hover:-translate-y-[200px]"
+			></div>
+			<!--p-5  bergerak ke bawah 40px -->
+			<div
+				class="mx-2 my-10 bg-sky-500 w-20 h-20 transition-all duration-500 group-hover:translate-y-10"
+			></div>
+		</div>
+	</body>
+</html>

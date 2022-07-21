@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>skew - tailwind</title>
+	</head>
+	<body>
+		<div class="flex justify-center flex-wrap">
+			<!-- miring ke kanan 12 derajat -->
+			<div
+				class="mx-auto my-20 bg-orange-500 w-32 h-32 transition-all duration-500 hover:skew-x-12"
+			></div>
+			<!-- miring ke kiri 12 derajat -->
+			<div
+				class="mx-auto my-20 bg-green-500 w-32 h-32 transition-all duration-500 hover:-skew-x-12"
+			></div>
+			<!-- miring ke atas 12 derajat -->
+			<div
+				class="mx-auto my-20 bg-indigo-500 w-32 h-32 transition-all duration-500 hover:skew-y-12"
+			></div>
+			<!-- miring ke bawah 12 derajat -->
+			<div
+				class="mx-auto my-20 bg-sky-500 w-32 h-32 transition-all duration-500 hover:-skew-y-12"
+			></div>
+		</div>
+	</body>
+</html>

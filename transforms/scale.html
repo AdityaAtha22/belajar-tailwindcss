@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>scale - tailwind</title>
+	</head>
+	<body>
+		<div class="flex justify-evenly">
+			<!-- ukuran membesar 1,5 -->
+			<div
+				class="mx-auto my-20 bg-orange-500 w-20 h-20 hover:scale-150 transition-all duration-500"
+			></div>
+			<!-- ukuran membesar 1 - normal -->
+			<div
+				class="mx-auto my-20 bg-red-500 w-20 h-20 hover:scale-100 transition-all duration-500"
+			></div>
+			<!-- ukuran mengecil 0.75  -->
+			<div
+				class="mx-auto my-20 bg-rose-500 w-20 h-20 hover:scale-75 transition-all duration-500"
+			></div>
+			<!-- ukuran mengecil - hilang  -->
+			<div
+				class="mx-auto my-20 bg-rose-500 w-20 h-20 hover:scale-0 transition-all duration-500"
+			></div>
+		</div>
+	</body>
+</html>

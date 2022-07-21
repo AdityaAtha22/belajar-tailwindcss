@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com/"></script>
+		<title>border radius - tailwind</title>
+	</head>
+	<body>
+		<div class="border-2 border-black p-5 flex flex-wrap justify-center">
+			<!-- border radius: 4px -->
+			<div class="mr-3 rounded bg-red-500 mb-5 w-28 h-28"></div>
+			<!-- border radius: 6px -->
+			<div class="mr-3 rounded-md bg-red-500 mb-5 w-28 h-28"></div>
+			<!-- border radius: 8px -->
+			<div class="mr-3 rounded-lg bg-red-500 mb-5 w-28 h-28"></div>
+			<!-- border radius: 9999px -->
+			<div class="mr-3 rounded-full bg-red-500 mb-5 w-28 h-28"></div>
+			<!-- border radius: 0px -->
+			<div class="mr-3 rounded-none bg-red-500 mb-5 w-28 h-28"></div>
+			<!--rounded 1 sisi(atas): 8px-->
+			<div class="mr-3 rounded-t-lg bg-red-500 mb-5 w-28 h-28"></div>
+			<!-- rounded 1 titik sudut(bawah kanan): 8px -->
+			<div class="mr-3 rounded-br-lg bg-red-500 mb-5 w-28 h-28"></div>
+		</div>
+	</body>
+</html>
